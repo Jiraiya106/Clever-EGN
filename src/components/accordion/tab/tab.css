@@ -1,0 +1,21 @@
+.tab {
+  width: 100%;
+  background: rgb(218, 198, 198);
+  font-size: 18px;
+  box-shadow: 0 0 5px grey;
+  margin-bottom: 8px;
+  padding: 8px;
+}
+
+.tab-header {
+  display: block;
+  width: 100%;
+  color: aqua;
+  font-weight: 600;
+}
+
+.tab-description {
+  width: 100%;
+  color: black;
+  transition: all 1s;
+}

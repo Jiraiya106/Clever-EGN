@@ -1,0 +1,17 @@
+.side-panel {
+  flex: 0 0 200px;
+  display: flex;
+  flex-flow: column;
+  row-gap: 20px;
+  padding: 16px;
+}
+
+.side-panel .link {
+  color: rgb(83, 112, 119);
+  font-size: 18px;
+}
+
+.side-panel .link.active {
+  color:rgb(241, 12, 0);
+  text-decoration: underline;
+}
